@@ -1,0 +1,25 @@
+{
+  "presets": ["lint-recommended", "lint-consistent"],
+  "settings": {
+    "gfm": true,
+    "commonmark": false,
+    "rule": "-",
+    "bullet": "*",
+    "listItemIndent": 1,
+    "fences": true
+  },
+  "plugins": {
+    "lint": {
+      "blockquote-indentation": 1,
+      "list-item-indent": "space",
+      "no-heading-punctuation": ".!:",
+      "no-duplicate-headings": true,
+      "table-pipe-alignment": false,
+      "table-cell-padding": false,
+      "blockquote-indentation": 2,
+      "code-block-style": "fenced",
+      "ordered-list-marker-value": "ordered",
+      "unordered-list-marker-style": "*"
+    }
+  }
+}

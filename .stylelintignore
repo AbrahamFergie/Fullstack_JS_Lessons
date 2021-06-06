@@ -1,0 +1,5 @@
+# Auto-generated react content (maybe later we write better rules for this, but for now it's an explicit list)
+**/Unsolved/client/**/*.css
+**/Solved/client/**/*.css
+**/create-react-express/client/**/*.css
+**/react-recap/**/*.css

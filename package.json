@@ -1,0 +1,49 @@
+{
+  "name": "fullstack-lesson-plans",
+  "version": "2.0.0",
+  "description": "*\"Tell me and I forget. Teach me and I remember. Involve me and I learn\" - Benjamin Franklin*",
+  "main": "index.js",
+  "scripts": {
+    "generate-tracker": "./generate-tracker.sh",
+    "link-lesson-plans": "node ./link-lesson-plans.js",
+    "print-tree": "tree",
+    "spellcheck": "cspell -u \"**/*.*\"",
+    "test": "remark . -e .md -r .remarkrc.json --quiet --frail && md-report && gulp test && cspell \"**/*.*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-boot-camp/FullStack-Lesson-Plans.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/coding-boot-camp/FullStack-Lesson-Plans/issues"
+  },
+  "homepage": "https://github.com/coding-boot-camp/FullStack-Lesson-Plans#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cspell": "^2.1.7",
+    "eslint": "^4.16.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-react": "^7.6.1",
+    "glob": "^7.1.2",
+    "glob-promise": "^3.2.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-stylefmt": "^1.1.0",
+    "gulp-stylelint": "^3.9.0",
+    "left-pad": "^1.1.3",
+    "markdown-link-reporter": "^1.1.0",
+    "remark-cli": "^2.1.0",
+    "remark-lint": "^5.4.0",
+    "remark-preset-lint-consistent": "^1.0.0",
+    "remark-preset-lint-recommended": "^1.0.0",
+    "rxjs": "^5.5.2",
+    "sequelize": "^3.28.0",
+    "stylelint-config-primer": "^1.4.0"
+  },
+  "dependencies": {
+    "dir-to-obj": "git+ssh://git@github.com:coding-boot-camp/dir-to-obj.git",
+    "textract": "^2.2.0",
+    "timetracker-generator": "git+ssh://git@github.com:coding-boot-camp/timetracker-generator.git"
+  }
+}

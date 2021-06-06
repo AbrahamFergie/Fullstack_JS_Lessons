@@ -1,0 +1,8 @@
+##
+# to diff pptx TEXT ONLY, add the following to .git/config:
+#  [diff "pptx"]
+#    binary = true
+#    textconv = node_modules/.bin/textract
+##
+
+*.pptx diff=pptx

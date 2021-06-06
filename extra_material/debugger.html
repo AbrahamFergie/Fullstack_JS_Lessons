@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How to Debug</title>
+</head>
+<body>
+  <h1>How do you solve a problem?</h1>
+  <p>Use the debugger!</p>
+  <h3>Instructions:</h3>
+  <ol>
+    <li>Open this file in Chrome</li>
+    <li>Open developer tools</li>
+    <li>In the JavaScript console, inspect some_object by typing the variable name in the console.</li>
+    <li>You can run any JavaScript you like in the console as if you were at that line of code in the execution of your program.</li>
+  </ol>
+
+  <p>You can access properties on an object just like you would in your JS code!</p>
+  <ul>
+      <li>some_object.name</li>
+      <li>some_object.age</li>
+  </ul>
+
+  <p>Notice how much time this can save you to diagnose issues. If a function is broken, put a debugger where you think the issue is and JavaScript will enter the console from that spot.</p>
+
+  <p>Read more at <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/" target="_blank">debugger explanation</a></p>
+  <script>
+    var some_object = {name: 'John Doe', age: 25};
+    debugger;
+    console.log("Now the rest of your code runs once you leave the debugger.");
+  </script>
+</body>
+</html>

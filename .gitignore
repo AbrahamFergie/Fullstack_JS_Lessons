@@ -1,0 +1,41 @@
+week-10-intro-node-three-days/homework_solution/keys.js
+week-10-intro-node-three-days/test-stuff.js
+week-10-intro-node-three-days/in-class-10.2
+week-11-intro-constructors-two-days/Spotify_Preview_Player
+week-11-intro-constructors-two-days/in_browser_homework_solution
+week-11-intro-constructors-two-days/11.2-in-class-exercises/exercises-model.js
+
+.DS_Store
+.vscode
+.idea
+
+## Excludes all node_module directories
+node_modules/
+
+## Exclude all log files (including npm-debug.log)
+*.log
+
+## Exclude all Vim swp files
+*.swp
+
+## Exclude MS/Libre Office swap files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+## Exclude pyc files
+*.pyc
+
+/vendor/
+phpunit.xml
+
+# Exclude webpack bundles
+bundle.js
+# Exclude build folders
+build/
+**/build/
+
+# Exclude yarn.lock for child folders
+
+**/yarn.lock
+!/yarn.lock

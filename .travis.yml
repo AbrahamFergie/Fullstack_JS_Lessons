@@ -1,0 +1,21 @@
+language: node_js
+node_js: "8"
+branches:
+  only:
+  - master
+  - dev
+  - major
+  - minor
+  - project-1-dev-branch
+cache:
+  yarn: true
+  directories:
+    - node_modules
+notifications:
+  webhooks:
+    urls:
+      - https://travis-reporter-bot.herokuapp.com/travis
+    on_success: never
+    on_failure: always
+    on_error: always
+

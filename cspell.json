@@ -1,0 +1,97 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "allowCompoundWords": true,
+  "dictionaries": [
+    "php",
+    "corp-terms",
+    "fonts",
+    "python",
+    "css",
+    "csharp",
+    "node",
+    "typescript",
+    "html",
+    "npm",
+    "softwareTerms",
+    "companies",
+    "en_US",
+    "bootcamp"
+  ],
+  "dictionaryDefinitions": [{ "name": "bootcamp", "path": "./spellcheck-dictionaries/bootcamp.dictionary.txt" }],
+  "ignorePaths": [
+    "package-lock.json",
+    "package.json",
+    "yarn.lock",
+    "gulpfile.js",
+    "cspell.json",
+    "node_modules/**",
+    "01-Class-Content/19-react/**",
+    "01-Class-Content/20-react/**",
+    "**/SlideShow/**",
+    "**/Slide-Shows/**",
+    "01-Class-Content/EXTRA_CONTENT/**",
+    "01-Class-Content/23-other-languages/**",
+    "03-interview-qs/3-Old-Interview-Questions/media_queries/assignment/media_queries.md",
+    "03-interview-qs/3-Old-Interview-Questions/floats_box_model/**/*.*",
+    "**/test/*.js",
+    "01-Class-Content/11-js-constructors/02-Homework/Solution/lib/words.js",
+    "01-Class-Content/10-nodejs/03-Supplemental/Protecting-API-Keys-In-Node.md",
+    "01-Class-Content/07-firebase/01-Activities/17-TimeSheet/**/*.js",
+    "01-Class-Content/07-firebase/02-Homework/Solutions/RPS_Multiplayer_Challenge/app.js",
+    "01-Class-Content/07-firebase/01-Activities/14-codersbay/Solved/CodersBay-Deployed/public/logic.js",
+    "01-Class-Content/07-firebase/01-Activities/14-codersbay/Solved/logic.js",
+    "**/db.sqlite3",
+    "**/migrations/**",
+    "**/settings.py",
+    "**/database.php",
+    "**/holder.js",
+    "**/*.pdf",
+    "**/*.mov",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.xlsx",
+    "**/*.pptx",
+    "**/*.docx",
+    "**/*.psd",
+    "**/*.mp3",
+    "**/*.PNG",
+    "**/*.csv",
+    "**/*.zip",
+    "**/*.mp4",
+    "**/*.lock",
+    "**/*.json",
+    "**/*.sqlite",
+    "**/*.sql",
+    "**/*.handlebars",
+    "**/*.txt",
+    "**/*.html"
+  ],
+  "ignoreRegExpList": ["URL", "Markdown Link Path", "Backticks", "Markdown Link Title", "Filepath", "HTML Entity"],
+  "patterns": [
+    {
+      "name": "URL",
+      "pattern": "https?:\\S+"
+    },
+    {
+      "name": "Markdown Link Path",
+      "pattern": "\\[.+]\\((.+)\\)"
+    },
+    {
+      "name": "Backticks",
+      "pattern": "`.*`"
+    },
+    {
+      "name": "Markdown Link Title",
+      "pattern": "\\[(.+)]"
+    },
+    {
+      "name": "Filepath",
+      "pattern": "\\/\\S+"
+    },
+    {
+      "name": "HTML Entity",
+      "pattern": "\\&\\S+\\;"
+    }
+  ]
+}
